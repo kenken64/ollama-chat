@@ -17,6 +17,9 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "target": "ES2022",
+    "paths":{
+      "ollama": ["./node_modules/ollama/dist/index.js"]
+    },
     "module": "ES2022",
     "useDefineForClassFields": false,
     "lib": [
